@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 91
+  controlID: 114
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 20
+  controlID: 44
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 21
+  controlID: 45
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 318.4
     height: 560
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -217,14 +217,14 @@ MonoBehaviour:
     height: 560
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -244,16 +244,16 @@ MonoBehaviour:
     y: 560
     width: 1260.8
     height: 210.79999
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -428,7 +428,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Assets/HoursePrefab/Materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -436,16 +436,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets
+  - Assets/Assets/HoursePrefab/Materials
   m_LastFoldersGridSize: 57
   m_LastProjectPath: D:\DemoGithub\Duangua_tranminhtuan
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 345a0000
-    m_LastClickedID: 23092
-    m_ExpandedIDs: 00000000345a00004a5a0000765a00007a5a00007e5a0000825a00008e5a0000925a0000965a00009a5a0000da5a000098690000f06f000000ca9a3b
+    scrollPos: {x: 0, y: 58.200012}
+    m_SelectedIDs: 04bb0000
+    m_LastClickedID: 47876
+    m_ExpandedIDs: 00000000ea6900000c6a0000d8ba000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,7 +473,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000345a0000
+    m_ExpandedIDs: 00000000ea690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -498,8 +498,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 86a7fdff
-    m_LastClickedInstanceID: -153722
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300005a840000a0840000da870000ac6900006866000054660000e8bd00001ca7000004bf000010c7000086c5000036aa00009c620000be6100006a6300009262000092760000c2740000e675000006750000f6790000107a0000147a0000fe7900000c7a0000ee790000f2790000027a0000087a000038830000a46d000042760000ca760000e66b00004c6800005268000088670000d67100006e7a0000b2740000146600001a66000018660000fea5000030a500007e8b0000226b00004e5c010056760000b4870000f6760000d66b0000986b00008c6b0000dc6b00007a0002004885000038850000946c0000807f010020e30000bc880000e07900001adb0100a4790000a079000006510200567a00003a7b00009eaa000094a50000e0a50000ae8c0000507c00009e750200327c0000e67b0000907c0000447c0000028b0000eac70100987f000048800000927f0000306c0000ea690000986a0000a86a0000e47600005070000038720000646e0000fc7300003c7100003875000028750000a6cb0000bacb00002681000034770000667e0000c4760000f6600000c6620000d65c000000000000e8700000
     m_RenameOverlay:
@@ -525,7 +525,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 120.20001}
     m_GridSize: 57
   m_SkipHiddenPackages: 1
   m_DirectoriesAreaWidth: 207
@@ -566,23 +566,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86a7fdff
-      m_LastClickedID: -153722
-      m_ExpandedIDs: 5a4dfdff5444feffd271feffd471feffd671feffd871feff1872feff1a72feff3c7efeffe6d8ffff30fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 06b0feff48b0feff5cf9feff10fbffff6c5d0000da5d0000cc5e0000f4620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Horse 10
+        m_OriginalName: Horse 10
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 23916
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -985,7 +985,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Cinemachine Tool Settings
-      index: 9
+      index: 7
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1013,9 +1013,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 57.3506, y: -4.3119416, z: 253.03273}
+    m_Target: {x: 56.73314, y: -1.3440888, z: 48.16318}
     speed: 2
-    m_Value: {x: 57.3506, y: -4.3119416, z: 253.03273}
+    m_Value: {x: 56.73314, y: -1.3440888, z: 48.16318}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1061,13 +1061,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.18389662, y: 0.71242756, z: -0.20269041, w: 0.6462788}
+    m_Target: {x: 0.12452643, y: 0.3854873, z: -0.052622803, w: 0.91279423}
     speed: 2
-    m_Value: {x: 0.1838846, y: 0.712381, z: -0.20267716, w: 0.6462366}
+    m_Value: {x: 0.1245221, y: 0.38547388, z: -0.05262097, w: 0.91276246}
   m_Size:
-    m_Target: 16.355976
+    m_Target: 23.559359
     speed: 2
-    m_Value: 16.355976
+    m_Value: 24.669485
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 03000000000000000000000006000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
@@ -1159,7 +1159,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1349,7 +1349,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -153722
+  m_LastSelectedObjectID: 25470
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52

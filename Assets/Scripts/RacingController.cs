@@ -1,18 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class RacingController : MonoBehaviour
 {
+    public static RacingController instance;
+
     public List<GameObject> horses;
+    public List<TextMeshProUGUI> nameHourse;
     [SerializeField] private float speed = 10f;
 
     private void Awake()
     {
-        if (horses == null)
+        horses = new List<GameObject>();
+        nameHourse = new List<TextMeshProUGUI>();
+    }
+
+    public static RacingController Instace()
+    {
+        if(instance == null)
         {
-            horses = new List<GameObject>();
+            instance = new RacingController();
         }
+        return instance;
     }
 
     void Start()
@@ -25,12 +36,11 @@ public class RacingController : MonoBehaviour
         StartCoroutine(WaitForStart());
     }
 
-    private void HorseRacing()
+    private void HorseRacing()  
     {
         foreach (var horse in horses)
         {
-            horse.transform.Translate(0, 0, Random.Range(speed,speed/2) * Time.deltaTime);
-
+            horse.transform.Translate(0, 0, speed * Time.deltaTime);
             Animator animator = horse.GetComponent<Animator>();
             if (animator != null)
             {
@@ -43,4 +53,12 @@ public class RacingController : MonoBehaviour
         yield return new WaitForSeconds(3f);
         HorseRacing();
     }
+
+    private void SetAnimation()
+    {
+        if(speed == speed / 2)
+        {
+        }
+    }
+
 }
